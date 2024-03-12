@@ -11,7 +11,7 @@ const input = readLinesFromTxt(inputPath);
 
 // GIVEN AN ARR OF STRS:
 // -- Find the FIRST and LAST number in STR
-// -- FIRST = Tens Digit, SECOND = Ones Digit
+// -- FIRST = Tens Digit, LAST = Ones Digit
 // ---- "1abc2" -> 12
 // Return SUM of 2 Digit Num from each line.
 
@@ -26,7 +26,7 @@ const input = readLinesFromTxt(inputPath);
 // For each STR:
 // -- Check if it is a number, if so, set it aside and in order.
 // -- Grab the first number and multiply by 10.
-// -- Add result to second number.
+// -- Add result to last number.
 // -- Update total with this 2 digit number.
 // Repeat for each STR present.
 // Return the total.
